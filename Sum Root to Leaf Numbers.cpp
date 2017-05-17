@@ -34,6 +34,7 @@ void PreOrderTraverse(TreeNode* T){
   PreOrderTraverse(T->right);  
  }  
  else cout<<"";  
+ cout<<endl;
 }//PreOrderTraverse  
 class Solution {
 public:
@@ -56,7 +57,7 @@ int main()
 	CreatBiTree(T);
 	Solution ob;
 	PreOrderTraverse(T);
-	//cout<<ob.sumNumbers (p)<<endl;
+	cout<<ob.sumNumbers (T)<<endl;
 	system("pause");
 	return 0;
 }
